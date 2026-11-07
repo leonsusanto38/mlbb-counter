@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor data counter | Counter Pick</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0F1834">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="wrap editor-top">
+    <div>
+      <h1>Editor data counter</h1>
+      <p>Perubahan disimpan sebagai draf di browser ini. Unduh <code>heroes.json</code> lalu commit ke repo supaya muncul di web.</p>
+    </div>
+    <div class="editor-actions">
+      <a class="btn ghost small" href="index.html?draft" target="_blank" rel="noopener">Lihat hasil draf</a>
+      <button type="button" class="btn ghost small" id="btn-import">Impor JSON</button>
+      <button type="button" class="btn ghost small" id="btn-discard">Buang draf</button>
+      <button type="button" class="btn small" id="btn-download">Unduh heroes.json</button>
+      <input type="file" id="file-import" accept="application/json,.json" hidden>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <p class="editor-status" id="ed-status" role="status">Memuat data…</p>
+  </div>
+
+  <div class="wrap editor">
+    <aside class="ed-side" aria-label="Daftar hero">
+      <label class="field">
+        <span>Cari hero</span>
+        <input class="input" id="ed-q" type="search" autocomplete="off" placeholder="Ketik nama hero">
+      </label>
+      <ul class="ed-list" id="ed-list"></ul>
+      <form class="field" id="form-add">
+        <span>Tambah hero baru</span>
+        <div class="add-hero">
+          <input class="input" id="add-name" placeholder="Nama hero" autocomplete="off" required>
+          <button type="submit" class="btn small">Tambah</button>
+        </div>
+      </form>
+    </aside>
+
+    <main class="ed-main" id="ed-main" aria-live="polite"></main>
+  </div>
+
+  <datalist id="hero-options"></datalist>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/editor.js"></script>
+</body>
+</html>

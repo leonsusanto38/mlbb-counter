@@ -1,0 +1,1287 @@
+{
+  "updated": "2026-11-07",
+  "heroes": [
+    {
+      "id": "akai",
+      "name": "Akai",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "aldous",
+      "name": "Aldous",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "roles": [
+        "Mage",
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong regen dari lifesteal"
+        }
+      ]
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "argus",
+      "name": "Argus",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "arlott",
+      "name": "Arlott",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "aulus",
+      "name": "Aulus",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "badang",
+      "name": "Badang",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "balmond",
+      "name": "Balmond",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "roles": [
+        "Fighter",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "barats",
+      "name": "Barats",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "baxia",
+      "name": "Baxia",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "beatrix",
+      "name": "Beatrix",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "belerick",
+      "name": "Belerick",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "benedetta",
+      "name": "Benedetta",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "brody",
+      "name": "Brody",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "carmilla",
+      "name": "Carmilla",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "cecilion",
+      "name": "Cecilion",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "chang-e",
+      "name": "Chang'e",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "chip",
+      "name": "Chip",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "chou",
+      "name": "Chou",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "cici",
+      "name": "Cici",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "clint",
+      "name": "Clint",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "diggie",
+      "name": "Diggie",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "dyrroth",
+      "name": "Dyrroth",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "edith",
+      "name": "Edith",
+      "roles": [
+        "Tank",
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "roles": [
+        "Mage",
+        "Tank"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong shield dan regen"
+        },
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan hero tebal"
+        }
+      ]
+    },
+    {
+      "id": "estes",
+      "name": "Estes",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya mengurangi efek heal"
+        }
+      ]
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "fanny",
+      "name": "Fanny",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        },
+        {
+          "id": "kaja",
+          "why": "Ult menyuppress target sehingga tidak bisa kabur"
+        },
+        {
+          "id": "saber",
+          "why": "Ult mengunci satu target tanpa celah kabur"
+        }
+      ]
+    },
+    {
+      "id": "faramis",
+      "name": "Faramis",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "floryn",
+      "name": "Floryn",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "franco",
+      "name": "Franco",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "fredrinn",
+      "name": "Fredrinn",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "freya",
+      "name": "Freya",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "gatotkaca",
+      "name": "Gatotkaca",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "gloo",
+      "name": "Gloo",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "gord",
+      "name": "Gord",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "granger",
+      "name": "Granger",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "grock",
+      "name": "Grock",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "guinevere",
+      "name": "Guinevere",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "gusion",
+      "name": "Gusion",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        }
+      ]
+    },
+    {
+      "id": "hanabi",
+      "name": "Hanabi",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "harith",
+      "name": "Harith",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "hayabusa",
+      "name": "Hayabusa",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "helcurt",
+      "name": "Helcurt",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "hilda",
+      "name": "Hilda",
+      "roles": [
+        "Fighter",
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "hylos",
+      "name": "Hylos",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "irithel",
+      "name": "Irithel",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "ixia",
+      "name": "Ixia",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "jawhead",
+      "name": "Jawhead",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "johnson",
+      "name": "Johnson",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "joy",
+      "name": "Joy",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "julian",
+      "name": "Julian",
+      "roles": [
+        "Fighter",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "kadita",
+      "name": "Kadita",
+      "roles": [
+        "Mage",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "kagura",
+      "name": "Kagura",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "kaja",
+      "name": "Kaja",
+      "roles": [
+        "Support",
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "kalea",
+      "name": "Kalea",
+      "roles": [
+        "Support",
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "karina",
+      "name": "Karina",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "karrie",
+      "name": "Karrie",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "khaleed",
+      "name": "Khaleed",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "khufra",
+      "name": "Khufra",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "kimmy",
+      "name": "Kimmy",
+      "roles": [
+        "Marksman",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "lancelot",
+      "name": "Lancelot",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        },
+        {
+          "id": "kaja",
+          "why": "Ult menyuppress target sehingga tidak bisa kabur"
+        }
+      ]
+    },
+    {
+      "id": "lapu-lapu",
+      "name": "Lapu-Lapu",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "layla",
+      "name": "Layla",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "leomord",
+      "name": "Leomord",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "lesley",
+      "name": "Lesley",
+      "roles": [
+        "Marksman",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "ling",
+      "name": "Ling",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        }
+      ]
+    },
+    {
+      "id": "lolita",
+      "name": "Lolita",
+      "roles": [
+        "Support",
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "lukas",
+      "name": "Lukas",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "lunox",
+      "name": "Lunox",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "luo-yi",
+      "name": "Luo Yi",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "lylia",
+      "name": "Lylia",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "martis",
+      "name": "Martis",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "masha",
+      "name": "Masha",
+      "roles": [
+        "Fighter",
+        "Tank"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "mathilda",
+      "name": "Mathilda",
+      "roles": [
+        "Support",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "melissa",
+      "name": "Melissa",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "minsitthar",
+      "name": "Minsitthar",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "miya",
+      "name": "Miya",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "moskov",
+      "name": "Moskov",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "nana",
+      "name": "Nana",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "natan",
+      "name": "Natan",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "nolan",
+      "name": "Nolan",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "novaria",
+      "name": "Novaria",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "obsidia",
+      "name": "Obsidia",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "paquito",
+      "name": "Paquito",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "pharsa",
+      "name": "Pharsa",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "phoveus",
+      "name": "Phoveus",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "popol-and-kupa",
+      "name": "Popol and Kupa",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "rafaela",
+      "name": "Rafaela",
+      "roles": [
+        "Support"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "roger",
+      "name": "Roger",
+      "roles": [
+        "Fighter",
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "saber",
+      "name": "Saber",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "selena",
+      "name": "Selena",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "silvanna",
+      "name": "Silvanna",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "suyou",
+      "name": "Suyou",
+      "roles": [
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "terizla",
+      "name": "Terizla",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "thamuz",
+      "name": "Thamuz",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "tigreal",
+      "name": "Tigreal",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan tank"
+        }
+      ]
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "roles": [
+        "Tank"
+      ],
+      "image": "",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong regen Uranus"
+        },
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan tank"
+        }
+      ]
+    },
+    {
+      "id": "vale",
+      "name": "Vale",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "valentina",
+      "name": "Valentina",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "valir",
+      "name": "Valir",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "vexana",
+      "name": "Vexana",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "wanwan",
+      "name": "Wanwan",
+      "roles": [
+        "Marksman"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "x-borg",
+      "name": "X.Borg",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "xavier",
+      "name": "Xavier",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "yi-sun-shin",
+      "name": "Yi Sun-shin",
+      "roles": [
+        "Marksman",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "yin",
+      "name": "Yin",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "yu-zhong",
+      "name": "Yu Zhong",
+      "roles": [
+        "Fighter"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "yve",
+      "name": "Yve",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "zetian",
+      "name": "Zetian",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "zhask",
+      "name": "Zhask",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "zhuxin",
+      "name": "Zhuxin",
+      "roles": [
+        "Mage"
+      ],
+      "image": "",
+      "counters": []
+    },
+    {
+      "id": "zilong",
+      "name": "Zilong",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "image": "",
+      "counters": []
+    }
+  ]
+}
