@@ -83,7 +83,7 @@ function save({ immediate = false } = {}) {
 function serialize() {
   return {
     updated: state.data.updated,
-    heroes:     heroes: heroes().map(({ id, name, roles, lanes, image, counters }) => ({
+    heroes: heroes().map(({ id, name, roles, lanes, image, counters }) => ({
       id,
       name,
       roles: ROLES.filter((r) => roles.includes(r)),
