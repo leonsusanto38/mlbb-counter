@@ -7,13 +7,36 @@ const DRAFT_KEY = 'mlbb-counter:draft';
 
 /** Muat data. Kalau useDraft = true dan ada draf dari Editor, pakai draf itu. */
 export async function loadData({ useDraft = false } = {}) {
-  if (useDraft) {
-    const draft = readDraft();
-    if (draft) return normalize(draft);
-  }
   const res = await fetch(DATA_URL, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Gagal memuat ${DATA_URL} (HTTP ${res.status})`);
-  return normalize(await res.json());
+  const base = normalize(await res.json());
+  const draft = useDraft ? readDraft() : null;
+  return draft ? mergeDraft(normalize(draft), base) : base;
+}
+
+/**
+ * Gabungkan draf Editor dengan data terbit (heroes.json hasil impor API terakhir).
+ * - Foto selalu dari data terbit, jadi draf lama tidak bisa menghapusnya.
+ * - Role/lane dari data terbit dipakai kalau di draf masih kosong.
+ * - Hero baru dari data terbit otomatis ikut masuk.
+ * - Counter dan editan lain tetap dari draf.
+ */
+export function mergeDraft(draft, base) {
+  const baseById = new Map(base.heroes.map((h) => [h.id, h]));
+  const heroes = draft.heroes.map((h) => {
+    const b = baseById.get(h.id);
+    if (!b) return h;
+    return {
+      ...h,
+      image: b.image || h.image,
+      roles: h.roles.length ? h.roles : b.roles,
+      lanes: h.lanes.length ? h.lanes : b.lanes,
+    };
+  });
+  const ids = new Set(heroes.map((h) => h.id));
+  for (const b of base.heroes) if (!ids.has(b.id)) heroes.push({ ...b });
+  heroes.sort((a, b) => a.name.localeCompare(b.name, 'id'));
+  return { updated: draft.updated || base.updated, heroes };
 }
 
 /**
@@ -106,11 +129,10 @@ export function escapeHtml(value) {
 export function avatarHtml(hero, size = '') {
   const mono = escapeHtml(monogram(hero.name));
   const cls = `avatar${size ? ` avatar-${size}` : ''}`;
-  if (hero.image) {
-    return `<span class="${cls}" style="--h:${hueOf(hero.id)}" data-mono="${mono}" aria-hidden="true">`
-      + `<img src="${escapeHtml(hero.image)}" alt="" loading="lazy" decoding="async"></span>`;
-  }
-  return `<span class="${cls}" style="--h:${hueOf(hero.id)}" aria-hidden="true">${mono}</span>`;
+  // Foto statis hasil impor: img/heroes/<id>.png. Kalau file tidak ada, otomatis jadi monogram.
+  const src = hero.image || `img/heroes/${hero.id}.png`;
+  return `<span class="${cls}" style="--h:${hueOf(hero.id)}" data-mono="${mono}" aria-hidden="true">`
+    + `<img src="${escapeHtml(src)}" alt="" loading="lazy" decoding="async"></span>`;
 }
 
 /** Kalau gambar hero gagal dimuat, ganti dengan monogram. Panggil sekali per halaman. */

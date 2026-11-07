@@ -21,14 +21,12 @@ const els = {
   toast: document.getElementById('toast'),
 };
 
-init();
-
 async function init() {
   enableAvatarFallback();
   const draft = readDraft();
   try {
     if (draft) {
-      state.data = normalize(draft);
+      state.data = await loadData({ useDraft: true });
       setStatus('Memakai draf yang tersimpan di browser ini. Kalau sudah selesai, unduh heroes.json lalu commit ke repo.');
     } else {
       state.data = await loadData();
@@ -145,11 +143,6 @@ function renderMain() {
       <label class="field">
         <span>Nama</span>
         <input class="input" data-field="name" value="${name}" autocomplete="off">
-      </label>
-      <label class="field">
-        <span>Gambar (opsional)</span>
-        <input class="input" data-field="image" value="${escapeHtml(hero.image)}" placeholder="img/heroes/${hero.id}.webp" autocomplete="off">
-        <small>Path file di repo atau URL gambar. Kosongkan untuk memakai monogram.</small>
       </label>
     </div>
 
@@ -442,3 +435,5 @@ function toast(message) {
   toastTimer = setTimeout(() => els.toast.classList.remove('show'), 2600);
   return false;
 }
+
+init();

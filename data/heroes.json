@@ -20,7 +20,8 @@
         "Tank"
       ],
       "lanes": [
-        "Roamer"
+        "Roamer",
+        "Jungler"
       ],
       "image": "img/heroes/akai.png",
       "counters": []
