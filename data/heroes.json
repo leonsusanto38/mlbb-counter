@@ -921,7 +921,12 @@
         "Jungler"
       ],
       "image": "img/heroes/julian.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "freya",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "kadita",
