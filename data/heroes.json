@@ -2,12 +2,27 @@
   "updated": "2026-11-07",
   "heroes": [
     {
+      "id": "aamon",
+      "name": "Aamon",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/aamon.png",
+      "counters": []
+    },
+    {
       "id": "akai",
       "name": "Akai",
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/akai.png",
       "counters": []
     },
     {
@@ -16,17 +31,24 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/aldous.png",
       "counters": []
     },
     {
       "id": "alice",
       "name": "Alice",
       "roles": [
-        "Mage",
-        "Tank"
+        "Tank",
+        "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/alice.png",
       "counters": []
     },
     {
@@ -35,7 +57,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/alpha.png",
       "counters": []
     },
     {
@@ -45,7 +71,10 @@
         "Fighter",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/alucard.png",
       "counters": [
         {
           "id": "baxia",
@@ -59,7 +88,10 @@
       "roles": [
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/angela.png",
       "counters": []
     },
     {
@@ -68,7 +100,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/argus.png",
       "counters": []
     },
     {
@@ -78,7 +113,10 @@
         "Fighter",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/arlott.png",
       "counters": []
     },
     {
@@ -87,7 +125,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/atlas.png",
       "counters": []
     },
     {
@@ -96,7 +137,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/aulus.png",
       "counters": []
     },
     {
@@ -105,7 +150,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/aurora.png",
       "counters": []
     },
     {
@@ -114,7 +162,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/badang.png",
       "counters": []
     },
     {
@@ -123,7 +175,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/balmond.png",
       "counters": []
     },
     {
@@ -133,7 +188,11 @@
         "Fighter",
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/bane.png",
       "counters": []
     },
     {
@@ -143,7 +202,11 @@
         "Tank",
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/barats.png",
       "counters": []
     },
     {
@@ -152,7 +215,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/baxia.png",
       "counters": []
     },
     {
@@ -161,7 +227,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/beatrix.png",
       "counters": []
     },
     {
@@ -170,16 +239,23 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/belerick.png",
       "counters": []
     },
     {
       "id": "benedetta",
       "name": "Benedetta",
       "roles": [
-        "Assassin"
+        "Assassin",
+        "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/benedetta.png",
       "counters": []
     },
     {
@@ -188,7 +264,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/brody.png",
       "counters": []
     },
     {
@@ -197,16 +276,23 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/bruno.png",
       "counters": []
     },
     {
       "id": "carmilla",
       "name": "Carmilla",
       "roles": [
-        "Support"
+        "Support",
+        "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/carmilla.png",
       "counters": []
     },
     {
@@ -215,7 +301,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/cecilion.png",
       "counters": []
     },
     {
@@ -224,17 +313,23 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/chang-e.png",
       "counters": []
     },
     {
       "id": "chip",
       "name": "Chip",
       "roles": [
-        "Tank",
-        "Support"
+        "Support",
+        "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/chip.png",
       "counters": []
     },
     {
@@ -243,7 +338,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/chou.png",
       "counters": []
     },
     {
@@ -252,7 +351,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/cici.png",
       "counters": []
     },
     {
@@ -261,7 +363,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/claude.png",
       "counters": []
     },
     {
@@ -270,7 +375,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/clint.png",
       "counters": []
     },
     {
@@ -279,7 +387,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/cyclops.png",
       "counters": []
     },
     {
@@ -288,7 +399,10 @@
       "roles": [
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/diggie.png",
       "counters": []
     },
     {
@@ -297,7 +411,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/dyrroth.png",
       "counters": []
     },
     {
@@ -307,17 +425,24 @@
         "Tank",
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/edith.png",
       "counters": []
     },
     {
       "id": "esmeralda",
       "name": "Esmeralda",
       "roles": [
-        "Mage",
-        "Tank"
+        "Tank",
+        "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/esmeralda.png",
       "counters": [
         {
           "id": "baxia",
@@ -335,7 +460,10 @@
       "roles": [
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/estes.png",
       "counters": [
         {
           "id": "baxia",
@@ -349,7 +477,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/eudora.png",
       "counters": []
     },
     {
@@ -358,7 +489,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/fanny.png",
       "counters": [
         {
           "id": "khufra",
@@ -389,7 +523,10 @@
         "Support",
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/faramis.png",
       "counters": []
     },
     {
@@ -398,7 +535,10 @@
       "roles": [
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/floryn.png",
       "counters": []
     },
     {
@@ -407,17 +547,23 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/franco.png",
       "counters": []
     },
     {
       "id": "fredrinn",
       "name": "Fredrinn",
       "roles": [
-        "Tank",
-        "Fighter"
+        "Fighter",
+        "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/fredrinn.png",
       "counters": []
     },
     {
@@ -426,7 +572,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/freya.png",
       "counters": []
     },
     {
@@ -436,7 +586,11 @@
         "Tank",
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/gatotkaca.png",
       "counters": []
     },
     {
@@ -445,7 +599,11 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/gloo.png",
       "counters": []
     },
     {
@@ -454,7 +612,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/gord.png",
       "counters": []
     },
     {
@@ -463,16 +624,23 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/granger.png",
       "counters": []
     },
     {
       "id": "grock",
       "name": "Grock",
       "roles": [
-        "Tank"
+        "Tank",
+        "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/grock.png",
       "counters": []
     },
     {
@@ -481,7 +649,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/guinevere.png",
       "counters": []
     },
     {
@@ -490,7 +661,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/gusion.png",
       "counters": [
         {
           "id": "khufra",
@@ -508,7 +682,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/hanabi.png",
       "counters": []
     },
     {
@@ -517,7 +694,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hanzo.png",
       "counters": []
     },
     {
@@ -526,7 +706,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/harith.png",
       "counters": []
     },
     {
@@ -536,7 +719,11 @@
         "Assassin",
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Mid Lane"
+      ],
+      "image": "img/heroes/harley.png",
       "counters": []
     },
     {
@@ -545,7 +732,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hayabusa.png",
       "counters": []
     },
     {
@@ -554,7 +744,11 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Roamer"
+      ],
+      "image": "img/heroes/helcurt.png",
       "counters": []
     },
     {
@@ -564,7 +758,23 @@
         "Fighter",
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/hilda.png",
+      "counters": []
+    },
+    {
+      "id": "hirara",
+      "name": "Hirara",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hirara.png",
       "counters": []
     },
     {
@@ -573,7 +783,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/hylos.png",
       "counters": []
     },
     {
@@ -582,7 +795,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/irithel.png",
       "counters": []
     },
     {
@@ -591,7 +807,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/ixia.png",
       "counters": []
     },
     {
@@ -600,7 +819,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/jawhead.png",
       "counters": []
     },
     {
@@ -610,7 +833,10 @@
         "Tank",
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/johnson.png",
       "counters": []
     },
     {
@@ -619,17 +845,23 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/joy.png",
       "counters": []
     },
     {
       "id": "julian",
       "name": "Julian",
       "roles": [
-        "Fighter",
-        "Mage"
+        "Assassin",
+        "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/julian.png",
       "counters": []
     },
     {
@@ -639,7 +871,10 @@
         "Mage",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kadita.png",
       "counters": []
     },
     {
@@ -648,17 +883,22 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kagura.png",
       "counters": []
     },
     {
       "id": "kaja",
       "name": "Kaja",
       "roles": [
-        "Support",
-        "Fighter"
+        "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/kaja.png",
       "counters": []
     },
     {
@@ -668,7 +908,10 @@
         "Support",
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/kalea.png",
       "counters": []
     },
     {
@@ -677,7 +920,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/karina.png",
       "counters": []
     },
     {
@@ -686,7 +932,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/karrie.png",
       "counters": []
     },
     {
@@ -695,7 +944,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/khaleed.png",
       "counters": []
     },
     {
@@ -704,7 +957,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/khufra.png",
       "counters": []
     },
     {
@@ -714,7 +970,10 @@
         "Marksman",
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kimmy.png",
       "counters": []
     },
     {
@@ -723,7 +982,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/lancelot.png",
       "counters": [
         {
           "id": "khufra",
@@ -749,7 +1011,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/lapu-lapu.png",
       "counters": []
     },
     {
@@ -758,7 +1023,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/layla.png",
       "counters": []
     },
     {
@@ -767,7 +1035,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/leomord.png",
       "counters": []
     },
     {
@@ -777,7 +1048,10 @@
         "Marksman",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/lesley.png",
       "counters": []
     },
     {
@@ -786,7 +1060,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/ling.png",
       "counters": [
         {
           "id": "khufra",
@@ -809,7 +1086,10 @@
         "Support",
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/lolita.png",
       "counters": []
     },
     {
@@ -818,7 +1098,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/lukas.png",
       "counters": []
     },
     {
@@ -827,7 +1111,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/lunox.png",
       "counters": []
     },
     {
@@ -836,7 +1123,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/luo-yi.png",
       "counters": []
     },
     {
@@ -845,7 +1135,22 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/lylia.png",
+      "counters": []
+    },
+    {
+      "id": "marcel",
+      "name": "Marcel",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/marcel.png",
       "counters": []
     },
     {
@@ -854,7 +1159,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/martis.png",
       "counters": []
     },
     {
@@ -864,7 +1173,10 @@
         "Fighter",
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/masha.png",
       "counters": []
     },
     {
@@ -874,7 +1186,10 @@
         "Support",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/mathilda.png",
       "counters": []
     },
     {
@@ -883,7 +1198,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/melissa.png",
       "counters": []
     },
     {
@@ -893,7 +1211,10 @@
         "Tank",
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/minotaur.png",
       "counters": []
     },
     {
@@ -902,7 +1223,11 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/minsitthar.png",
       "counters": []
     },
     {
@@ -911,7 +1236,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/miya.png",
       "counters": []
     },
     {
@@ -920,7 +1248,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/moskov.png",
       "counters": []
     },
     {
@@ -929,7 +1260,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/nana.png",
       "counters": []
     },
     {
@@ -938,7 +1272,11 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Roamer"
+      ],
+      "image": "img/heroes/natalia.png",
       "counters": []
     },
     {
@@ -947,7 +1285,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/natan.png",
       "counters": []
     },
     {
@@ -956,7 +1297,10 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/nolan.png",
       "counters": []
     },
     {
@@ -965,7 +1309,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/novaria.png",
       "counters": []
     },
     {
@@ -974,7 +1321,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/obsidia.png",
       "counters": []
     },
     {
@@ -983,16 +1333,23 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/odette.png",
       "counters": []
     },
     {
       "id": "paquito",
       "name": "Paquito",
       "roles": [
-        "Fighter"
+        "Fighter",
+        "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/paquito.png",
       "counters": []
     },
     {
@@ -1001,7 +1358,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/pharsa.png",
       "counters": []
     },
     {
@@ -1010,7 +1370,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/phoveus.png",
       "counters": []
     },
     {
@@ -1019,7 +1382,11 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Gold Lane"
+      ],
+      "image": "img/heroes/popol-and-kupa.png",
       "counters": []
     },
     {
@@ -1028,7 +1395,10 @@
       "roles": [
         "Support"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/rafaela.png",
       "counters": []
     },
     {
@@ -1038,7 +1408,10 @@
         "Fighter",
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/roger.png",
       "counters": []
     },
     {
@@ -1047,7 +1420,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/ruby.png",
       "counters": []
     },
     {
@@ -1056,7 +1432,11 @@
       "roles": [
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Roamer"
+      ],
+      "image": "img/heroes/saber.png",
       "counters": []
     },
     {
@@ -1066,7 +1446,10 @@
         "Assassin",
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/selena.png",
       "counters": []
     },
     {
@@ -1075,7 +1458,23 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/silvanna.png",
+      "counters": []
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/sora.png",
       "counters": []
     },
     {
@@ -1084,25 +1483,37 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/sun.png",
       "counters": []
     },
     {
       "id": "suyou",
       "name": "Suyou",
       "roles": [
-        "Assassin"
+        "Assassin",
+        "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/suyou.png",
       "counters": []
     },
     {
       "id": "terizla",
       "name": "Terizla",
       "roles": [
-        "Fighter"
+        "Fighter",
+        "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/terizla.png",
       "counters": []
     },
     {
@@ -1111,7 +1522,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/thamuz.png",
       "counters": []
     },
     {
@@ -1120,7 +1534,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/tigreal.png",
       "counters": [
         {
           "id": "karrie",
@@ -1134,7 +1551,10 @@
       "roles": [
         "Tank"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/uranus.png",
       "counters": [
         {
           "id": "baxia",
@@ -1152,7 +1572,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/vale.png",
       "counters": []
     },
     {
@@ -1161,7 +1584,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/valentina.png",
       "counters": []
     },
     {
@@ -1170,7 +1596,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/valir.png",
       "counters": []
     },
     {
@@ -1179,7 +1608,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/vexana.png",
       "counters": []
     },
     {
@@ -1188,7 +1620,10 @@
       "roles": [
         "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/wanwan.png",
       "counters": []
     },
     {
@@ -1197,7 +1632,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/x-borg.png",
       "counters": []
     },
     {
@@ -1206,26 +1644,37 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/xavier.png",
       "counters": []
     },
     {
       "id": "yi-sun-shin",
       "name": "Yi Sun-shin",
       "roles": [
-        "Marksman",
-        "Assassin"
+        "Assassin",
+        "Marksman"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/yi-sun-shin.png",
       "counters": []
     },
     {
       "id": "yin",
       "name": "Yin",
       "roles": [
-        "Fighter"
+        "Fighter",
+        "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Jungler",
+        "Exp Lane"
+      ],
+      "image": "img/heroes/yin.png",
       "counters": []
     },
     {
@@ -1234,7 +1683,10 @@
       "roles": [
         "Fighter"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/yu-zhong.png",
       "counters": []
     },
     {
@@ -1243,7 +1695,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/yve.png",
       "counters": []
     },
     {
@@ -1252,7 +1707,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zetian.png",
       "counters": []
     },
     {
@@ -1261,7 +1719,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zhask.png",
       "counters": []
     },
     {
@@ -1270,7 +1731,10 @@
       "roles": [
         "Mage"
       ],
-      "image": "",
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zhuxin.png",
       "counters": []
     },
     {
@@ -1280,7 +1744,10 @@
         "Fighter",
         "Assassin"
       ],
-      "image": "",
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/zilong.png",
       "counters": []
     }
   ]
