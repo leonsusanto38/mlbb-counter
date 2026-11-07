@@ -1,12 +1,19 @@
 import {
-  ROLES, loadData, weakAgainst, strongAgainst, searchKey,
+  ROLES, LANES, loadData, weakAgainst, strongAgainst, searchKey, slugify,
   avatarHtml, escapeHtml, enableAvatarFallback,
 } from './data.js';
+
+// Cara pengelompokan hero. `key` = nama field di heroes.json.
+const GROUPS = {
+  role: { label: 'Role', key: 'roles', values: ROLES, none: 'Belum ada role' },
+  lane: { label: 'Lane', key: 'lanes', values: LANES, none: 'Belum ada lane' },
+};
 
 const state = {
   heroes: [],
   byId: new Map(),
-  role: 'all',
+  groupBy: new URLSearchParams(location.search).get('by') === 'lane' ? 'lane' : 'role',
+  filter: 'all',
   query: '',
   usingDraft: false,
 };
@@ -45,22 +52,27 @@ async function init() {
 // ---------- Daftar hero ----------
 
 function renderRoleNav() {
-  const options = [['all', 'Semua'], ...ROLES.map((r) => [r, r])];
-  els.roleNav.innerHTML = options.map(([value, label]) => (
-    `<button type="button" class="role-chip" data-role="${value}" aria-pressed="${value === state.role}">${label}</button>`
+  const group = GROUPS[state.groupBy];
+  const switcher = Object.entries(GROUPS).map(([value, g]) => (
+    `<button type="button" data-group="${value}" aria-pressed="${value === state.groupBy}">${g.label}</button>`
   )).join('');
+  const chips = [['all', 'Semua'], ...group.values.map((v) => [v, v])].map(([value, label]) => (
+    `<button type="button" class="role-chip" data-filter="${value}" aria-pressed="${value === state.filter}">${label}</button>`
+  )).join('');
+  els.roleNav.innerHTML = `<div class="group-switch" role="group" aria-label="Kelompokkan berdasarkan">${switcher}</div>${chips}`;
 }
 
 function renderGrid() {
+  const group = GROUPS[state.groupBy];
   const key = searchKey(state.query);
   const matches = (h) => !key || searchKey(h.name).includes(key);
-  const roles = state.role === 'all' ? [...ROLES, ''] : [state.role];
+  const values = state.filter === 'all' ? [...group.values, ''] : [state.filter];
 
-  const sections = roles.map((role) => {
-    const list = state.heroes.filter((h) => (role ? h.roles.includes(role) : h.roles.length === 0) && matches(h));
+  const sections = values.map((value) => {
+    const list = state.heroes.filter((h) => (value ? h[group.key].includes(value) : h[group.key].length === 0) && matches(h));
     if (!list.length) return '';
-    const title = role || 'Belum ada role';
-    const sid = `role-${role ? role.toLowerCase() : 'none'}`;
+    const title = value || group.none;
+    const sid = `group-${value ? slugify(value) : 'none'}`;
     return `
       <section class="role-group" aria-labelledby="${sid}">
         <h2 id="${sid}">${title} <span class="count">${list.length}</span></h2>
@@ -78,7 +90,7 @@ function renderGrid() {
     els.grid.innerHTML = banner + sections;
   } else {
     const q = escapeHtml(state.query.trim());
-    const where = state.role === 'all' ? '' : ` di role ${state.role}`;
+    const where = state.filter === 'all' ? '' : ` di ${state.filter}`;
     els.grid.innerHTML = `${banner}<div class="empty">
       <p>Tidak ada hero bernama “${q}”${where}.</p>
       <button type="button" class="btn ghost" data-action="reset-filter">Tampilkan semua hero</button>
@@ -109,14 +121,17 @@ function renderDetail(hero) {
   const strong = strongAgainst(hero, state.heroes);
   const weak = weakAgainst(hero);
   const name = escapeHtml(hero.name);
-  const roles = hero.roles.length ? hero.roles.join(', ') : 'Belum ada role';
+    const tags = [
+    ...hero.roles.map((r) => `<li class="tag">${r}</li>`),
+    ...hero.lanes.map((l) => `<li class="tag tag-lane">${l}</li>`),
+  ].join('');
 
   els.body.innerHTML = `
     <div class="detail-head">
       ${avatarHtml(hero, 'xl')}
       <div class="detail-title">
         <h2 id="detail-name">${name}</h2>
-        <p class="detail-roles">${roles}</p>
+        <ul class="detail-tags" aria-label="Role dan lane">${tags || '<li class="tag">Belum ada role</li>'}</ul>
       </div>
       <button type="button" class="icon-btn close" data-action="close" aria-label="Tutup">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
@@ -190,11 +205,27 @@ function bindEvents() {
   });
 
   els.roleNav.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-role]');
-    if (!btn) return;
-    state.role = btn.dataset.role;
-    els.roleNav.querySelectorAll('[data-role]').forEach((b) => {
-      b.setAttribute('aria-pressed', String(b.dataset.role === state.role));
+    // Ganti cara kelompok (Role <-> Lane). Pilihan disimpan di URL (?by=lane).
+    const groupBtn = e.target.closest('[data-group]');
+    if (groupBtn) {
+      if (groupBtn.dataset.group === state.groupBy) return;
+      state.groupBy = groupBtn.dataset.group;
+      state.filter = 'all';
+      const params = new URLSearchParams(location.search);
+      if (state.groupBy === 'lane') params.set('by', 'lane');
+      else params.delete('by');
+      const qs = params.toString();
+      history.replaceState(null, '', `${location.pathname}${qs ? `?${qs}` : ''}${location.hash}`);
+      renderRoleNav();
+      renderGrid();
+      return;
+    }
+
+    const chip = e.target.closest('[data-filter]');
+    if (!chip) return;
+    state.filter = chip.dataset.filter;
+    els.roleNav.querySelectorAll('[data-filter]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.filter === state.filter));
     });
     renderGrid();
   });
@@ -202,7 +233,7 @@ function bindEvents() {
   els.grid.addEventListener('click', (e) => {
     if (!e.target.closest('[data-action="reset-filter"]')) return;
     state.query = '';
-    state.role = 'all';
+    state.filter = 'all';
     els.q.value = '';
     renderRoleNav();
     renderGrid();

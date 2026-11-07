@@ -1,6 +1,7 @@
 // Fungsi bersama untuk halaman utama (app.js) dan Editor (editor.js).
 
 export const ROLES = ['Tank', 'Fighter', 'Assassin', 'Mage', 'Marksman', 'Support'];
+export const LANES = ['Exp Lane', 'Gold Lane', 'Mid Lane', 'Roamer', 'Jungler'];
 export const DATA_URL = 'data/heroes.json';
 const DRAFT_KEY = 'mlbb-counter:draft';
 
@@ -33,6 +34,7 @@ export function normalize(raw) {
       id,
       name: h.name.trim(),
       roles: (Array.isArray(h.roles) ? h.roles : []).filter((r) => ROLES.includes(r)),
+      lanes: (Array.isArray(h.lanes) ? h.lanes : []).filter((l) => LANES.includes(l)),
       image: typeof h.image === 'string' ? h.image.trim() : '',
       counters: Array.isArray(h.counters) ? h.counters : [],
     });

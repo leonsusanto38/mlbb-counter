@@ -188,6 +188,32 @@ code {
 .role-chip:hover { color: var(--text); border-color: var(--muted); }
 .role-chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); }
 
+/* Saklar Role / Lane: putih untuk "cara mengelompokkan", emas untuk filter. */
+.group-switch {
+  flex: none;
+  display: flex; gap: 2px;
+  padding: 3px; margin-right: .5rem;
+  background: var(--panel);
+  border-radius: 999px;
+}
+.group-switch button {
+  min-height: calc(2.5rem - 6px); padding: .35rem 1rem;
+  border: 0; border-radius: 999px;
+  background: transparent; color: var(--muted);
+  font: 600 .9rem/1 var(--font-body); cursor: pointer;
+}
+.group-switch button:hover { color: var(--text); }
+.group-switch button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+
+.detail-tags { list-style: none; margin: .45rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.tag {
+  padding: .2rem .6rem;
+  border-radius: 4px;
+  background: var(--panel); color: var(--text);
+  font-size: .8rem; font-weight: 600;
+}
+.tag-lane { background: transparent; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); }
+
 main.wrap { padding-block: 1.75rem 3rem; outline: none; }
 
 .status { color: var(--muted); }

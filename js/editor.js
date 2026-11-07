@@ -1,5 +1,5 @@
 import {
-  ROLES, DATA_URL, loadData, normalize, strongAgainst, slugify, searchKey,
+  ROLES, LANES, DATA_URL, loadData, normalize, strongAgainst, slugify, searchKey,
   avatarHtml, escapeHtml, enableAvatarFallback, readDraft, writeDraft, clearDraft,
 } from './data.js';
 
@@ -83,10 +83,11 @@ function save({ immediate = false } = {}) {
 function serialize() {
   return {
     updated: state.data.updated,
-    heroes: heroes().map(({ id, name, roles, image, counters }) => ({
+    heroes:     heroes: heroes().map(({ id, name, roles, lanes, image, counters }) => ({
       id,
       name,
       roles: ROLES.filter((r) => roles.includes(r)),
+      lanes: LANES.filter((l) => lanes.includes(l)),
       image,
       counters: counters.map(({ id: cid, why }) => ({ id: cid, why })),
     })),
@@ -157,6 +158,15 @@ function renderMain() {
       <div class="role-checks">
         ${ROLES.map((r) => `
           <label><input type="checkbox" data-role="${r}" ${hero.roles.includes(r) ? 'checked' : ''}> ${r}</label>
+        `).join('')}
+      </div>
+    </fieldset>
+
+    <fieldset class="field">
+      <legend>Lane</legend>
+      <div class="role-checks">
+        ${LANES.map((l) => `
+          <label><input type="checkbox" data-lane="${l}" ${hero.lanes.includes(l) ? 'checked' : ''}> ${l}</label>
         `).join('')}
       </div>
     </fieldset>
@@ -272,7 +282,7 @@ function addHero(name) {
     selectHero(id);
     return;
   }
-  heroes().push({ id, name: clean, roles: [], image: '', counters: [] });
+    heroes().push({ id, name: clean, roles: [], lanes: [], image: '', counters: [] });
   sortHeroes();
   save({ immediate: true });
   state.query = '';
@@ -381,6 +391,10 @@ function bindEvents() {
     const hero = selected();
     if (t.dataset.role) {
       hero.roles = ROLES.filter((r) => (r === t.dataset.role ? t.checked : hero.roles.includes(r)));
+      save();
+    }
+    if (t.dataset.lane) {
+      hero.lanes = LANES.filter((l) => (l === t.dataset.lane ? t.checked : hero.lanes.includes(l)));
       save();
     }
     if (t.dataset.field === 'name') {
