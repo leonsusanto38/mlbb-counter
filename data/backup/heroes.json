@@ -1,0 +1,1829 @@
+{
+  "updated": "2026-11-07",
+  "heroes": [
+    {
+      "id": "aamon",
+      "name": "Aamon",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/aamon.png",
+      "counters": []
+    },
+    {
+      "id": "akai",
+      "name": "Akai",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer",
+        "Jungler"
+      ],
+      "image": "img/heroes/akai.png",
+      "counters": []
+    },
+    {
+      "id": "aldous",
+      "name": "Aldous",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/aldous.png",
+      "counters": []
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/alice.png",
+      "counters": []
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/alpha.png",
+      "counters": []
+    },
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/alucard.png",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong regen dari lifesteal"
+        }
+      ]
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/angela.png",
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": "ambil shield angela"
+        }
+      ]
+    },
+    {
+      "id": "argus",
+      "name": "Argus",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/argus.png",
+      "counters": []
+    },
+    {
+      "id": "arlott",
+      "name": "Arlott",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/arlott.png",
+      "counters": []
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/atlas.png",
+      "counters": []
+    },
+    {
+      "id": "aulus",
+      "name": "Aulus",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/aulus.png",
+      "counters": []
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/aurora.png",
+      "counters": []
+    },
+    {
+      "id": "badang",
+      "name": "Badang",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/badang.png",
+      "counters": []
+    },
+    {
+      "id": "balmond",
+      "name": "Balmond",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/balmond.png",
+      "counters": []
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "roles": [
+        "Fighter",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/bane.png",
+      "counters": []
+    },
+    {
+      "id": "barats",
+      "name": "Barats",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/barats.png",
+      "counters": []
+    },
+    {
+      "id": "baxia",
+      "name": "Baxia",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/baxia.png",
+      "counters": []
+    },
+    {
+      "id": "beatrix",
+      "name": "Beatrix",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/beatrix.png",
+      "counters": []
+    },
+    {
+      "id": "belerick",
+      "name": "Belerick",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/belerick.png",
+      "counters": []
+    },
+    {
+      "id": "benedetta",
+      "name": "Benedetta",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/benedetta.png",
+      "counters": [
+        {
+          "id": "phoveus",
+          "why": "mencolot teros soale bened nge dash teros"
+        }
+      ]
+    },
+    {
+      "id": "brody",
+      "name": "Brody",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/brody.png",
+      "counters": [
+        {
+          "id": "terizla",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/bruno.png",
+      "counters": []
+    },
+    {
+      "id": "carmilla",
+      "name": "Carmilla",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/carmilla.png",
+      "counters": []
+    },
+    {
+      "id": "cecilion",
+      "name": "Cecilion",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/cecilion.png",
+      "counters": []
+    },
+    {
+      "id": "chang-e",
+      "name": "Chang'e",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/chang-e.png",
+      "counters": []
+    },
+    {
+      "id": "chip",
+      "name": "Chip",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/chip.png",
+      "counters": []
+    },
+    {
+      "id": "chou",
+      "name": "Chou",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/chou.png",
+      "counters": []
+    },
+    {
+      "id": "cici",
+      "name": "Cici",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Gold Lane"
+      ],
+      "image": "img/heroes/cici.png",
+      "counters": [
+        {
+          "id": "lukas",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/claude.png",
+      "counters": []
+    },
+    {
+      "id": "clint",
+      "name": "Clint",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/clint.png",
+      "counters": []
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/cyclops.png",
+      "counters": []
+    },
+    {
+      "id": "diggie",
+      "name": "Diggie",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/diggie.png",
+      "counters": []
+    },
+    {
+      "id": "dyrroth",
+      "name": "Dyrroth",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/dyrroth.png",
+      "counters": []
+    },
+    {
+      "id": "edith",
+      "name": "Edith",
+      "roles": [
+        "Tank",
+        "Marksman"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/edith.png",
+      "counters": []
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/esmeralda.png",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong shield dan regen"
+        },
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan hero tebal"
+        }
+      ]
+    },
+    {
+      "id": "estes",
+      "name": "Estes",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/estes.png",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya mengurangi efek heal"
+        }
+      ]
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/eudora.png",
+      "counters": []
+    },
+    {
+      "id": "fanny",
+      "name": "Fanny",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/fanny.png",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        },
+        {
+          "id": "kaja",
+          "why": "Ult menyuppress target sehingga tidak bisa kabur"
+        },
+        {
+          "id": "saber",
+          "why": "Ult mengunci satu target tanpa celah kabur"
+        }
+      ]
+    },
+    {
+      "id": "faramis",
+      "name": "Faramis",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/faramis.png",
+      "counters": []
+    },
+    {
+      "id": "floryn",
+      "name": "Floryn",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/floryn.png",
+      "counters": []
+    },
+    {
+      "id": "franco",
+      "name": "Franco",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/franco.png",
+      "counters": []
+    },
+    {
+      "id": "fredrinn",
+      "name": "Fredrinn",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/fredrinn.png",
+      "counters": []
+    },
+    {
+      "id": "freya",
+      "name": "Freya",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/freya.png",
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "gatotkaca",
+      "name": "Gatotkaca",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/gatotkaca.png",
+      "counters": []
+    },
+    {
+      "id": "gloo",
+      "name": "Gloo",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/gloo.png",
+      "counters": [
+        {
+          "id": "alice",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "gord",
+      "name": "Gord",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/gord.png",
+      "counters": []
+    },
+    {
+      "id": "granger",
+      "name": "Granger",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/granger.png",
+      "counters": []
+    },
+    {
+      "id": "grock",
+      "name": "Grock",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/grock.png",
+      "counters": []
+    },
+    {
+      "id": "guinevere",
+      "name": "Guinevere",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/guinevere.png",
+      "counters": [
+        {
+          "id": "uranus",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "gusion",
+      "name": "Gusion",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/gusion.png",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        }
+      ]
+    },
+    {
+      "id": "hanabi",
+      "name": "Hanabi",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/hanabi.png",
+      "counters": []
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hanzo.png",
+      "counters": []
+    },
+    {
+      "id": "harith",
+      "name": "Harith",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/harith.png",
+      "counters": []
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/harley.png",
+      "counters": []
+    },
+    {
+      "id": "hayabusa",
+      "name": "Hayabusa",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hayabusa.png",
+      "counters": []
+    },
+    {
+      "id": "helcurt",
+      "name": "Helcurt",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Roamer",
+        "Jungler"
+      ],
+      "image": "img/heroes/helcurt.png",
+      "counters": []
+    },
+    {
+      "id": "hilda",
+      "name": "Hilda",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/hilda.png",
+      "counters": []
+    },
+    {
+      "id": "hirara",
+      "name": "Hirara",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/hirara.png",
+      "counters": []
+    },
+    {
+      "id": "hylos",
+      "name": "Hylos",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/hylos.png",
+      "counters": []
+    },
+    {
+      "id": "irithel",
+      "name": "Irithel",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/irithel.png",
+      "counters": []
+    },
+    {
+      "id": "ixia",
+      "name": "Ixia",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/ixia.png",
+      "counters": []
+    },
+    {
+      "id": "jawhead",
+      "name": "Jawhead",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/jawhead.png",
+      "counters": []
+    },
+    {
+      "id": "johnson",
+      "name": "Johnson",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/johnson.png",
+      "counters": []
+    },
+    {
+      "id": "joy",
+      "name": "Joy",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/joy.png",
+      "counters": []
+    },
+    {
+      "id": "julian",
+      "name": "Julian",
+      "roles": [
+        "Fighter",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/julian.png",
+      "counters": []
+    },
+    {
+      "id": "kadita",
+      "name": "Kadita",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kadita.png",
+      "counters": []
+    },
+    {
+      "id": "kagura",
+      "name": "Kagura",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kagura.png",
+      "counters": []
+    },
+    {
+      "id": "kaja",
+      "name": "Kaja",
+      "roles": [
+        "Fighter",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/kaja.png",
+      "counters": []
+    },
+    {
+      "id": "kalea",
+      "name": "Kalea",
+      "roles": [
+        "Fighter",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/kalea.png",
+      "counters": []
+    },
+    {
+      "id": "karina",
+      "name": "Karina",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/karina.png",
+      "counters": []
+    },
+    {
+      "id": "karrie",
+      "name": "Karrie",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/karrie.png",
+      "counters": []
+    },
+    {
+      "id": "khaleed",
+      "name": "Khaleed",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/khaleed.png",
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "khufra",
+      "name": "Khufra",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/khufra.png",
+      "counters": []
+    },
+    {
+      "id": "kimmy",
+      "name": "Kimmy",
+      "roles": [
+        "Mage",
+        "Marksman"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/kimmy.png",
+      "counters": []
+    },
+    {
+      "id": "lancelot",
+      "name": "Lancelot",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/lancelot.png",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        },
+        {
+          "id": "kaja",
+          "why": "Ult menyuppress target sehingga tidak bisa kabur"
+        }
+      ]
+    },
+    {
+      "id": "lapu-lapu",
+      "name": "Lapu-Lapu",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/lapu-lapu.png",
+      "counters": []
+    },
+    {
+      "id": "layla",
+      "name": "Layla",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/layla.png",
+      "counters": []
+    },
+    {
+      "id": "leomord",
+      "name": "Leomord",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/leomord.png",
+      "counters": []
+    },
+    {
+      "id": "lesley",
+      "name": "Lesley",
+      "roles": [
+        "Assassin",
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/lesley.png",
+      "counters": []
+    },
+    {
+      "id": "ling",
+      "name": "Ling",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/ling.png",
+      "counters": [
+        {
+          "id": "khufra",
+          "why": "Bouncing Ball memantulkan hero yang dash menembus dirinya"
+        },
+        {
+          "id": "minsitthar",
+          "why": "Ult-nya mencegah skill dash dan blink di dalam area"
+        },
+        {
+          "id": "phoveus",
+          "why": "Ult bisa dipakai ulang tiap kali musuh di dekatnya dash"
+        }
+      ]
+    },
+    {
+      "id": "lolita",
+      "name": "Lolita",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/lolita.png",
+      "counters": []
+    },
+    {
+      "id": "lukas",
+      "name": "Lukas",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/lukas.png",
+      "counters": []
+    },
+    {
+      "id": "lunox",
+      "name": "Lunox",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/lunox.png",
+      "counters": []
+    },
+    {
+      "id": "luo-yi",
+      "name": "Luo Yi",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/luo-yi.png",
+      "counters": []
+    },
+    {
+      "id": "lylia",
+      "name": "Lylia",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/lylia.png",
+      "counters": []
+    },
+    {
+      "id": "marcel",
+      "name": "Marcel",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/marcel.png",
+      "counters": []
+    },
+    {
+      "id": "martis",
+      "name": "Martis",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/martis.png",
+      "counters": []
+    },
+    {
+      "id": "masha",
+      "name": "Masha",
+      "roles": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/masha.png",
+      "counters": []
+    },
+    {
+      "id": "mathilda",
+      "name": "Mathilda",
+      "roles": [
+        "Assassin",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/mathilda.png",
+      "counters": []
+    },
+    {
+      "id": "melissa",
+      "name": "Melissa",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/melissa.png",
+      "counters": []
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/minotaur.png",
+      "counters": []
+    },
+    {
+      "id": "minsitthar",
+      "name": "Minsitthar",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roamer"
+      ],
+      "image": "img/heroes/minsitthar.png",
+      "counters": []
+    },
+    {
+      "id": "miya",
+      "name": "Miya",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/miya.png",
+      "counters": []
+    },
+    {
+      "id": "moskov",
+      "name": "Moskov",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/moskov.png",
+      "counters": []
+    },
+    {
+      "id": "nana",
+      "name": "Nana",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/nana.png",
+      "counters": []
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Roamer",
+        "Jungler"
+      ],
+      "image": "img/heroes/natalia.png",
+      "counters": []
+    },
+    {
+      "id": "natan",
+      "name": "Natan",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/natan.png",
+      "counters": []
+    },
+    {
+      "id": "nolan",
+      "name": "Nolan",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/nolan.png",
+      "counters": []
+    },
+    {
+      "id": "novaria",
+      "name": "Novaria",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/novaria.png",
+      "counters": []
+    },
+    {
+      "id": "obsidia",
+      "name": "Obsidia",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/obsidia.png",
+      "counters": []
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/odette.png",
+      "counters": []
+    },
+    {
+      "id": "paquito",
+      "name": "Paquito",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/paquito.png",
+      "counters": []
+    },
+    {
+      "id": "pharsa",
+      "name": "Pharsa",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/pharsa.png",
+      "counters": []
+    },
+    {
+      "id": "phoveus",
+      "name": "Phoveus",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/phoveus.png",
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "popol-and-kupa",
+      "name": "Popol and Kupa",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/popol-and-kupa.png",
+      "counters": []
+    },
+    {
+      "id": "rafaela",
+      "name": "Rafaela",
+      "roles": [
+        "Support"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/rafaela.png",
+      "counters": []
+    },
+    {
+      "id": "roger",
+      "name": "Roger",
+      "roles": [
+        "Fighter",
+        "Marksman"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/roger.png",
+      "counters": []
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/ruby.png",
+      "counters": []
+    },
+    {
+      "id": "saber",
+      "name": "Saber",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Roamer",
+        "Jungler"
+      ],
+      "image": "img/heroes/saber.png",
+      "counters": []
+    },
+    {
+      "id": "selena",
+      "name": "Selena",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/selena.png",
+      "counters": []
+    },
+    {
+      "id": "silvanna",
+      "name": "Silvanna",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/silvanna.png",
+      "counters": []
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/sora.png",
+      "counters": []
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/sun.png",
+      "counters": []
+    },
+    {
+      "id": "suyou",
+      "name": "Suyou",
+      "roles": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/suyou.png",
+      "counters": []
+    },
+    {
+      "id": "terizla",
+      "name": "Terizla",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/terizla.png",
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        },
+        {
+          "id": "thamuz",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "thamuz",
+      "name": "Thamuz",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/thamuz.png",
+      "counters": [
+        {
+          "id": "wanwan",
+          "why": ""
+        },
+        {
+          "id": "x-borg",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "tigreal",
+      "name": "Tigreal",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roamer"
+      ],
+      "image": "img/heroes/tigreal.png",
+      "counters": [
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan tank"
+        }
+      ]
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "roles": [
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/uranus.png",
+      "counters": [
+        {
+          "id": "baxia",
+          "why": "Pasif-nya memotong regen Uranus"
+        },
+        {
+          "id": "karrie",
+          "why": "Damage berdasarkan HP maksimal, efektif melawan tank"
+        }
+      ]
+    },
+    {
+      "id": "vale",
+      "name": "Vale",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/vale.png",
+      "counters": []
+    },
+    {
+      "id": "valentina",
+      "name": "Valentina",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/valentina.png",
+      "counters": []
+    },
+    {
+      "id": "valir",
+      "name": "Valir",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/valir.png",
+      "counters": [
+        {
+          "id": "lukas",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "vexana",
+      "name": "Vexana",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/vexana.png",
+      "counters": []
+    },
+    {
+      "id": "wanwan",
+      "name": "Wanwan",
+      "roles": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ],
+      "image": "img/heroes/wanwan.png",
+      "counters": []
+    },
+    {
+      "id": "x-borg",
+      "name": "X.Borg",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/x-borg.png",
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "xavier",
+      "name": "Xavier",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/xavier.png",
+      "counters": []
+    },
+    {
+      "id": "yi-sun-shin",
+      "name": "Yi Sun-shin",
+      "roles": [
+        "Assassin",
+        "Marksman"
+      ],
+      "lanes": [
+        "Jungler"
+      ],
+      "image": "img/heroes/yi-sun-shin.png",
+      "counters": []
+    },
+    {
+      "id": "yin",
+      "name": "Yin",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungler"
+      ],
+      "image": "img/heroes/yin.png",
+      "counters": []
+    },
+    {
+      "id": "yu-zhong",
+      "name": "Yu Zhong",
+      "roles": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/yu-zhong.png",
+      "counters": [
+        {
+          "id": "guinevere",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "yve",
+      "name": "Yve",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/yve.png",
+      "counters": []
+    },
+    {
+      "id": "zetian",
+      "name": "Zetian",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zetian.png",
+      "counters": []
+    },
+    {
+      "id": "zhask",
+      "name": "Zhask",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zhask.png",
+      "counters": []
+    },
+    {
+      "id": "zhuxin",
+      "name": "Zhuxin",
+      "roles": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ],
+      "image": "img/heroes/zhuxin.png",
+      "counters": []
+    },
+    {
+      "id": "zilong",
+      "name": "Zilong",
+      "roles": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ],
+      "image": "img/heroes/zilong.png",
+      "counters": []
+    }
+  ]
+}

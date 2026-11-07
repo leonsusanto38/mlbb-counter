@@ -59,8 +59,8 @@
         "Fighter"
       ],
       "lanes": [
-        "Jungler",
-        "Exp Lane"
+        "Exp Lane",
+        "Jungler"
       ],
       "image": "img/heroes/alpha.png",
       "counters": []
@@ -93,7 +93,12 @@
         "Roamer"
       ],
       "image": "img/heroes/angela.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": "ambil shield angela"
+        }
+      ]
     },
     {
       "id": "argus",
@@ -139,8 +144,8 @@
         "Fighter"
       ],
       "lanes": [
-        "Jungler",
-        "Exp Lane"
+        "Exp Lane",
+        "Jungler"
       ],
       "image": "img/heroes/aulus.png",
       "counters": []
@@ -164,11 +169,16 @@
         "Fighter"
       ],
       "lanes": [
-        "Roamer",
-        "Exp Lane"
+        "Exp Lane",
+        "Roamer"
       ],
       "image": "img/heroes/badang.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "diggie",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "balmond",
@@ -190,8 +200,8 @@
         "Mage"
       ],
       "lanes": [
-        "Jungler",
-        "Exp Lane"
+        "Exp Lane",
+        "Jungler"
       ],
       "image": "img/heroes/bane.png",
       "counters": []
@@ -250,14 +260,18 @@
       "id": "benedetta",
       "name": "Benedetta",
       "roles": [
-        "Assassin",
-        "Fighter"
+        "Assassin"
       ],
       "lanes": [
         "Exp Lane"
       ],
       "image": "img/heroes/benedetta.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "phoveus",
+          "why": "mencolot teros soale bened nge dash teros"
+        }
+      ]
     },
     {
       "id": "brody",
@@ -269,7 +283,12 @@
         "Gold Lane"
       ],
       "image": "img/heroes/brody.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "terizla",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "bruno",
@@ -287,8 +306,7 @@
       "id": "carmilla",
       "name": "Carmilla",
       "roles": [
-        "Support",
-        "Tank"
+        "Support"
       ],
       "lanes": [
         "Roamer"
@@ -324,14 +342,19 @@
       "id": "chip",
       "name": "Chip",
       "roles": [
-        "Support",
-        "Tank"
+        "Tank",
+        "Support"
       ],
       "lanes": [
         "Roamer"
       ],
       "image": "img/heroes/chip.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "ruby",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "chou",
@@ -353,10 +376,16 @@
         "Fighter"
       ],
       "lanes": [
-        "Exp Lane"
+        "Exp Lane",
+        "Gold Lane"
       ],
       "image": "img/heroes/cici.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "lukas",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "claude",
@@ -417,7 +446,12 @@
         "Jungler"
       ],
       "image": "img/heroes/dyrroth.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "thamuz",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "edith",
@@ -452,6 +486,10 @@
         {
           "id": "karrie",
           "why": "Damage berdasarkan HP maksimal, efektif melawan hero tebal"
+        },
+        {
+          "id": "dyrroth",
+          "why": ""
         }
       ]
     },
@@ -521,14 +559,19 @@
       "id": "faramis",
       "name": "Faramis",
       "roles": [
-        "Support",
-        "Mage"
+        "Mage",
+        "Support"
       ],
       "lanes": [
         "Mid Lane"
       ],
       "image": "img/heroes/faramis.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "lapu-lapu",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "floryn",
@@ -558,8 +601,8 @@
       "id": "fredrinn",
       "name": "Fredrinn",
       "roles": [
-        "Fighter",
-        "Tank"
+        "Tank",
+        "Fighter"
       ],
       "lanes": [
         "Jungler"
@@ -578,7 +621,12 @@
         "Jungler"
       ],
       "image": "img/heroes/freya.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "gatotkaca",
@@ -588,8 +636,8 @@
         "Fighter"
       ],
       "lanes": [
-        "Roamer",
-        "Exp Lane"
+        "Exp Lane",
+        "Roamer"
       ],
       "image": "img/heroes/gatotkaca.png",
       "counters": []
@@ -601,11 +649,16 @@
         "Tank"
       ],
       "lanes": [
-        "Roamer",
-        "Exp Lane"
+        "Exp Lane",
+        "Roamer"
       ],
       "image": "img/heroes/gloo.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "alice",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "gord",
@@ -635,8 +688,7 @@
       "id": "grock",
       "name": "Grock",
       "roles": [
-        "Tank",
-        "Fighter"
+        "Tank"
       ],
       "lanes": [
         "Roamer"
@@ -654,7 +706,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/guinevere.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "uranus",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "gusion",
@@ -721,8 +778,8 @@
         "Mage"
       ],
       "lanes": [
-        "Jungler",
-        "Mid Lane"
+        "Mid Lane",
+        "Jungler"
       ],
       "image": "img/heroes/harley.png",
       "counters": []
@@ -746,8 +803,8 @@
         "Assassin"
       ],
       "lanes": [
-        "Jungler",
-        "Roamer"
+        "Roamer",
+        "Jungler"
       ],
       "image": "img/heroes/helcurt.png",
       "counters": []
@@ -756,12 +813,12 @@
       "id": "hilda",
       "name": "Hilda",
       "roles": [
-        "Fighter",
-        "Tank"
+        "Tank",
+        "Fighter"
       ],
       "lanes": [
-        "Roamer",
-        "Exp Lane"
+        "Exp Lane",
+        "Roamer"
       ],
       "image": "img/heroes/hilda.png",
       "counters": []
@@ -856,10 +913,11 @@
       "id": "julian",
       "name": "Julian",
       "roles": [
-        "Assassin",
-        "Fighter"
+        "Fighter",
+        "Mage"
       ],
       "lanes": [
+        "Exp Lane",
         "Jungler"
       ],
       "image": "img/heroes/julian.png",
@@ -869,8 +927,8 @@
       "id": "kadita",
       "name": "Kadita",
       "roles": [
-        "Mage",
-        "Assassin"
+        "Assassin",
+        "Mage"
       ],
       "lanes": [
         "Mid Lane"
@@ -894,6 +952,7 @@
       "id": "kaja",
       "name": "Kaja",
       "roles": [
+        "Fighter",
         "Support"
       ],
       "lanes": [
@@ -906,8 +965,8 @@
       "id": "kalea",
       "name": "Kalea",
       "roles": [
-        "Support",
-        "Fighter"
+        "Fighter",
+        "Support"
       ],
       "lanes": [
         "Roamer"
@@ -946,11 +1005,16 @@
         "Fighter"
       ],
       "lanes": [
-        "Roamer",
-        "Exp Lane"
+        "Exp Lane",
+        "Roamer"
       ],
       "image": "img/heroes/khaleed.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "khufra",
@@ -968,8 +1032,8 @@
       "id": "kimmy",
       "name": "Kimmy",
       "roles": [
-        "Marksman",
-        "Mage"
+        "Mage",
+        "Marksman"
       ],
       "lanes": [
         "Mid Lane"
@@ -1016,7 +1080,20 @@
         "Exp Lane"
       ],
       "image": "img/heroes/lapu-lapu.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "cici",
+          "why": ""
+        },
+        {
+          "id": "x-borg",
+          "why": ""
+        },
+        {
+          "id": "esmeralda",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "layla",
@@ -1046,8 +1123,8 @@
       "id": "lesley",
       "name": "Lesley",
       "roles": [
-        "Marksman",
-        "Assassin"
+        "Assassin",
+        "Marksman"
       ],
       "lanes": [
         "Gold Lane"
@@ -1084,8 +1161,8 @@
       "id": "lolita",
       "name": "Lolita",
       "roles": [
-        "Support",
-        "Tank"
+        "Tank",
+        "Support"
       ],
       "lanes": [
         "Roamer"
@@ -1161,8 +1238,8 @@
         "Fighter"
       ],
       "lanes": [
-        "Jungler",
-        "Exp Lane"
+        "Exp Lane",
+        "Jungler"
       ],
       "image": "img/heroes/martis.png",
       "counters": []
@@ -1171,8 +1248,8 @@
       "id": "masha",
       "name": "Masha",
       "roles": [
-        "Fighter",
-        "Tank"
+        "Tank",
+        "Fighter"
       ],
       "lanes": [
         "Exp Lane"
@@ -1184,8 +1261,8 @@
       "id": "mathilda",
       "name": "Mathilda",
       "roles": [
-        "Support",
-        "Assassin"
+        "Assassin",
+        "Support"
       ],
       "lanes": [
         "Roamer"
@@ -1274,8 +1351,8 @@
         "Assassin"
       ],
       "lanes": [
-        "Jungler",
-        "Roamer"
+        "Roamer",
+        "Jungler"
       ],
       "image": "img/heroes/natalia.png",
       "counters": []
@@ -1302,7 +1379,12 @@
         "Jungler"
       ],
       "image": "img/heroes/nolan.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "phoveus",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "novaria",
@@ -1344,8 +1426,7 @@
       "id": "paquito",
       "name": "Paquito",
       "roles": [
-        "Fighter",
-        "Assassin"
+        "Fighter"
       ],
       "lanes": [
         "Exp Lane"
@@ -1375,7 +1456,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/phoveus.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "esmeralda",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "popol-and-kupa",
@@ -1384,8 +1470,8 @@
         "Marksman"
       ],
       "lanes": [
-        "Jungler",
-        "Gold Lane"
+        "Gold Lane",
+        "Jungler"
       ],
       "image": "img/heroes/popol-and-kupa.png",
       "counters": []
@@ -1425,7 +1511,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/ruby.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "lapu-lapu",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "saber",
@@ -1434,8 +1525,8 @@
         "Assassin"
       ],
       "lanes": [
-        "Jungler",
-        "Roamer"
+        "Roamer",
+        "Jungler"
       ],
       "image": "img/heroes/saber.png",
       "counters": []
@@ -1463,7 +1554,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/silvanna.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "phoveus",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "sora",
@@ -1495,8 +1591,7 @@
       "id": "suyou",
       "name": "Suyou",
       "roles": [
-        "Assassin",
-        "Fighter"
+        "Assassin"
       ],
       "lanes": [
         "Jungler"
@@ -1508,14 +1603,22 @@
       "id": "terizla",
       "name": "Terizla",
       "roles": [
-        "Fighter",
-        "Tank"
+        "Fighter"
       ],
       "lanes": [
         "Exp Lane"
       ],
       "image": "img/heroes/terizla.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        },
+        {
+          "id": "thamuz",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "thamuz",
@@ -1527,7 +1630,16 @@
         "Exp Lane"
       ],
       "image": "img/heroes/thamuz.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "wanwan",
+          "why": ""
+        },
+        {
+          "id": "x-borg",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "tigreal",
@@ -1564,6 +1676,10 @@
         {
           "id": "karrie",
           "why": "Damage berdasarkan HP maksimal, efektif melawan tank"
+        },
+        {
+          "id": "dyrroth",
+          "why": ""
         }
       ]
     },
@@ -1601,7 +1717,16 @@
         "Mid Lane"
       ],
       "image": "img/heroes/valir.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "lukas",
+          "why": ""
+        },
+        {
+          "id": "lapu-lapu",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "vexana",
@@ -1625,7 +1750,12 @@
         "Gold Lane"
       ],
       "image": "img/heroes/wanwan.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "phoveus",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "x-borg",
@@ -1637,7 +1767,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/x-borg.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "arlott",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "xavier",
@@ -1668,12 +1803,11 @@
       "id": "yin",
       "name": "Yin",
       "roles": [
-        "Fighter",
-        "Assassin"
+        "Fighter"
       ],
       "lanes": [
-        "Jungler",
-        "Exp Lane"
+        "Exp Lane",
+        "Jungler"
       ],
       "image": "img/heroes/yin.png",
       "counters": []
@@ -1688,7 +1822,12 @@
         "Exp Lane"
       ],
       "image": "img/heroes/yu-zhong.png",
-      "counters": []
+      "counters": [
+        {
+          "id": "guinevere",
+          "why": ""
+        }
+      ]
     },
     {
       "id": "yve",
